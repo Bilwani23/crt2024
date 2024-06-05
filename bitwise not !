@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int a=0;
+    if(!a)
+    printf("condition yielded true");
+    else
+    printf("condition yielded false");
+    return 0;
+}
