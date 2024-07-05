@@ -1,0 +1,27 @@
+import java.util.*;
+class Test 
+{
+    void show()
+    {
+        System.out.println("Show method");
+    }
+    public static void main(String[] args) 
+    {
+        Test t1=new Test();
+        t1.show();
+    }
+}
+class Test1
+{
+    void show()
+    {
+        System.out.println("Show method");
+    }
+ Test1()
+ {  }
+ public static void main(String args[])
+ {
+     Test t1=new Test();
+     t1.show();
+ }
+}
